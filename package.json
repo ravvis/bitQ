@@ -1,0 +1,34 @@
+{
+  "name": "bitq",
+  "version": "0.0.1",
+  "description": "A bitbucket API client for Javascript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravvis/bitQ.git"
+  },
+  "keywords": [
+    "Bitbucket",
+    "Javascript",
+    "Bitbucket",
+    "API"
+  ],
+  "author": "Ravindra Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravvis/bitQ/issues"
+  },
+  "homepage": "https://github.com/ravvis/bitQ#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.19",
+    "esbuild-node-externals": "^1.3.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.21.1"
+  }
+}
